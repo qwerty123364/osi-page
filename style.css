@@ -87,6 +87,8 @@ div.carousel>button {
 }
 
 img#src {
+    aspect-radio: 1 / 1;
+    object-fit: cover;
     width: 80%;
-    display: inline;
 }
+
