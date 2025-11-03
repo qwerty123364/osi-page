@@ -1,15 +1,18 @@
 const values = [
   {
     name: "Innowacyjność",
-    src: "https://images.unsplash.com/photo-1580983559367-0dc2f8934365?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src: "https://images.unsplash.com/photo-1580983559367-0dc2f8934365?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Innowacyjność"
   },
   {
     name: "Nowoczesność",
-    src: "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+    src: "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    alt: "Nowoczesność"
   },
   {
     name: "Przyszłość",
-    src: "https://images.unsplash.com/photo-1758874383719-7c801adb7e5c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032"
+    src: "https://images.unsplash.com/photo-1758874383719-7c801adb7e5c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032",
+    alt: "Przyszłość"
   }
 ]
 let index = 0
@@ -35,5 +38,7 @@ right.addEventListener("click", e => {
 
 function setData() {
   h.textContent = values[index].name
-  src.src = values[index].src
+  i.src = values[index].src
+  i.alt = values[index].alt
 }
+
