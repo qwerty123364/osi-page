@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://qwerty123364.github.io/osi-page/sitemap.xml
